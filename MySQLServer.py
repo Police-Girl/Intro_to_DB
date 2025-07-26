@@ -64,7 +64,7 @@ if __name__ == "__main__":
             # Print success message. 'IF NOT EXISTS' handles existing DBs without error.
             print("Database 'alx_book_store' created successfully or already exists.")
 
-    except Error as e:
+    except mysql.connector error:
         # Handle connection and other MySQL-related errors
         print(f"Error connecting to MySQL or creating database: {e}")
 
